@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'test';
+  x=[2,5,4];
+  colors=["red","yellow","green"];
+
+  sendM(color:any){
+    console.log(color);
+  }
+
 }
+
